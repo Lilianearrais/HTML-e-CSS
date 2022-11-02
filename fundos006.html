@@ -7,13 +7,17 @@
     <title>test 3</title>
     <style>
         body{
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper003.jpg);
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
-       
+            background-attachment: fixed;*/
+
+            /*usando o shorthand podemos escrever todo o codigo descrito acima em uma só linha seguindo a seguinte ordem: color -> image-> position -> repeat -> [size] -> attachment. o size embora esteja descrito na regra ainda não funciona se for colocado junto*/
+            
+            background: black url(imagens/wallpaper003.jpg)  center center no-repeat fixed;
 
         }
         main{
